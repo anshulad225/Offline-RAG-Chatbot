@@ -1,8 +1,6 @@
 # Offline-RAG-Chatbot
 This project is a Retrieval-Augmented Generation (RAG) chatbot built with Python and Streamlit, designed to answer questions about uploaded PDF or text files. It uses a local OllamaLLM (`phi` model) for text generation and a FAISS vector store with HuggingFaceEmbeddings (`all-MiniLM-L6-v2`) for document retrieval, which runs fully offline.
-# Offline RAG Chatbot
 
-This project is a **Retrieval-Augmented Generation (RAG)** chatbot that answers questions based on uploaded PDF or text files. It uses a local **Ollama** model (`phi`) for text generation and **FAISS** with pre-downloaded **HuggingFaceEmbeddings** (`all-MiniLM-L6-v2`) for document retrieval, enabling fully offline operation after initial setup. The chatbot features a user-friendly **Streamlit** web interface for file uploads and queries, displaying answers with source document excerpts.
 
 ## Features
 - **Offline Operation**: Runs entirely locally after downloading models, ideal for environments without internet.
